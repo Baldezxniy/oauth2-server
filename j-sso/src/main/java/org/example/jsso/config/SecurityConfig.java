@@ -22,6 +22,8 @@ public class SecurityConfig {
 		http.authorizeHttpRequests(authorize ->
 				authorize.anyRequest().authenticated()
 		);
+		http.oauth2Login(withDefaults());
+
 		return http.formLogin(withDefaults()).build();
 	}
 

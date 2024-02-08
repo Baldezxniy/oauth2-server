@@ -37,4 +37,4 @@ build/
 ### Mac OS ###
 .DS_Store
 
-j-sso/.env
+.env

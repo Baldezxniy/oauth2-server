@@ -24,6 +24,8 @@ spring:
           github:
             clientId: ${OAUTH_GITHUB_CLIENT_ID}
             clientSecret: ${OAUTH_GITHUB_CLIENT_SECRET}
+            scope:
+              - user:email
           google:
             clientId: ${OAUTH_GOOGLE_CLIENT_ID}
             clientSecret: ${OAUTH_GOOGLE_CLIENT_SECRET}
